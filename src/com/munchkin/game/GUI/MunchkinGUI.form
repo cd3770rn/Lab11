@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.munchkin.game.GUI.MunchkinGUI">
+  <grid id="27dc6" binding="mainPanel" layout-manager="CardLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="4470" height="1658"/>
+    </constraints>
+    <properties>
+      <foreground color="-10329502"/>
+      <minimumSize width="1920" height="1080"/>
+      <opaque value="false"/>
+      <preferredSize width="1920" height="1080"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="2f5a" binding="mainMenu" layout-manager="GridLayoutManager" row-count="11" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <card name="MainMenu"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="e243b" class="javax.swing.JLabel" binding="logo">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="com/munchkin/assets/image/ui/gameLogo.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="53476" class="javax.swing.JButton" binding="playButton">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="619" height="150"/>
+                <maximum-size width="619" height="150"/>
+              </grid>
+            </constraints>
+            <properties>
+              <icon value="com/munchkin/assets/image/ui/buttons/unpressed/playButton.png"/>
+              <pressedIcon value="com/munchkin/assets/image/ui/buttons/pressed/playButton_pressed.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="e4bf6" class="javax.swing.JButton" binding="settingsButton">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="619" height="150"/>
+                <maximum-size width="619" height="150"/>
+              </grid>
+            </constraints>
+            <properties>
+              <icon value="com/munchkin/assets/image/ui/buttons/unpressed/settingsButton.png"/>
+              <pressedIcon value="com/munchkin/assets/image/ui/buttons/pressed/settingsButton_pressed.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="dc4f9" class="javax.swing.JButton" binding="exitButton">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="619" height="150"/>
+                <maximum-size width="619" height="150"/>
+              </grid>
+            </constraints>
+            <properties>
+              <icon value="com/munchkin/assets/image/ui/buttons/unpressed/exitButton.png"/>
+              <pressedIcon value="com/munchkin/assets/image/ui/buttons/pressed/exitButton_pressed.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <vspacer id="120f9">
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="c8c43">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="30"/>
+                <maximum-size width="-1" height="100"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <vspacer id="2cf5d">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="30"/>
+                <maximum-size width="-1" height="100"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <vspacer id="12ccc">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <maximum-size width="-1" height="150"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <vspacer id="d79ad">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="a14c4" class="javax.swing.JButton" binding="howToPlayButton">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <maximum-size width="625" height="149"/>
+              </grid>
+            </constraints>
+            <properties>
+              <icon value="com/munchkin/assets/image/ui/buttons/unpressed/howToPlayButton.png"/>
+              <pressedIcon value="com/munchkin/assets/image/ui/buttons/pressed/howToPlayButton_pressed.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <vspacer id="e91c1">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="30"/>
+                <maximum-size width="-1" height="100"/>
+              </grid>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <grid id="2eb12" binding="settingsMenu" layout-manager="GridLayoutManager" row-count="10" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <card name="SettingsMenu"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="3c0a1" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Luckiest Guy" size="72"/>
+              <text value="SETTINGS"/>
+            </properties>
+          </component>
+          <component id="5d608" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Luckiest Guy" size="48"/>
+              <text value="FULLSCREEN"/>
+            </properties>
+          </component>
+          <component id="d429d" class="javax.swing.JButton" binding="settingsAcceptButton">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <maximum-size width="619" height="150"/>
+              </grid>
+            </constraints>
+            <properties>
+              <icon value="com/munchkin/assets/image/ui/buttons/unpressed/acceptButton.png"/>
+              <pressedIcon value="com/munchkin/assets/image/ui/buttons/pressed/acceptButton_pressed.png"/>
+              <text value=""/>
+              <visible value="false"/>
+            </properties>
+          </component>
+          <component id="96a8" class="javax.swing.JButton" binding="settingsBackButton">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <maximum-size width="619" height="150"/>
+              </grid>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <icon value="com/munchkin/assets/image/ui/buttons/unpressed/backButton.png"/>
+              <pressedIcon value="com/munchkin/assets/image/ui/buttons/pressed/backButton_pressed.png"/>
+              <requestFocusEnabled value="false"/>
+              <text value=""/>
+              <visible value="true"/>
+            </properties>
+          </component>
+          <component id="c3faf" class="javax.swing.JComboBox" binding="resolutionComboBox">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="3" use-parent-layout="false">
+                <minimum-size width="250" height="-1"/>
+                <maximum-size width="750" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="968b3" class="javax.swing.JCheckBox" binding="fullscreenCheckBox">
+            <constraints>
+              <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="2" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <hspacer id="359af">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="2d9fb">
+            <constraints>
+              <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <vspacer id="cd487">
+            <constraints>
+              <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="250"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <vspacer id="99d8e">
+            <constraints>
+              <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="20"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <vspacer id="fa7e4">
+            <constraints>
+              <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="3179">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="2" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="100"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <component id="d0ef1" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Luckiest Guy" size="48"/>
+              <text value="RESOLUTION"/>
+            </properties>
+          </component>
+          <vspacer id="cc01c">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="25"/>
+              </grid>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <grid id="f394b" binding="gameMenu" layout-manager="GridLayoutManager" row-count="7" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <card name="Card1"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="c74fc" class="javax.swing.JButton" binding="singlePlayerButton">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <maximum-size width="619" height="150"/>
+              </grid>
+            </constraints>
+            <properties>
+              <enabled value="false"/>
+              <icon value="com/munchkin/assets/image/ui/buttons/unpressed/spButton.png"/>
+              <pressedIcon value="com/munchkin/assets/image/ui/buttons/pressed/spButton_pressed.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="75978" class="javax.swing.JButton" binding="multiPlayerButton">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <maximum-size width="619" height="150"/>
+              </grid>
+            </constraints>
+            <properties>
+              <icon value="com/munchkin/assets/image/ui/buttons/unpressed/mpButton.png"/>
+              <pressedIcon value="com/munchkin/assets/image/ui/buttons/pressed/mpButton_pressed.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <vspacer id="659e">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="d0f9f">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="396d9">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <component id="3361b" class="javax.swing.JButton" binding="gameMenuBackButton">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <maximum-size width="619" height="150"/>
+              </grid>
+            </constraints>
+            <properties>
+              <icon value="com/munchkin/assets/image/ui/buttons/unpressed/backButton.png"/>
+              <pressedIcon value="com/munchkin/assets/image/ui/buttons/pressed/backButton_pressed.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <vspacer id="e5621">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <grid id="32f5c" binding="singlePlayerMenu" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <card name="Card2"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="199a0" binding="multiPlayerMenu" layout-manager="GridLayoutManager" row-count="7" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <card name="Card3"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="e5a8f" class="javax.swing.JButton" binding="multiPlayerConfirmButton">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <maximum-size width="619" height="150"/>
+              </grid>
+            </constraints>
+            <properties>
+              <icon value="com/munchkin/assets/image/ui/buttons/unpressed/confirmButton.png"/>
+              <pressedIcon value="com/munchkin/assets/image/ui/buttons/pressed/confirmButton_pressed.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="3b95f" class="javax.swing.JButton" binding="multiPlayerBackButton">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <maximum-size width="619" height="150"/>
+              </grid>
+            </constraints>
+            <properties>
+              <icon value="com/munchkin/assets/image/ui/buttons/unpressed/backButton.png"/>
+              <pressedIcon value="com/munchkin/assets/image/ui/buttons/pressed/backButton_pressed.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="c5b8d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Luckiest Guy" size="36"/>
+              <text value="IP ADDRESS:"/>
+            </properties>
+          </component>
+          <component id="d043c" class="javax.swing.JTextField" binding="serverAddressTextField">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="500" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Luckiest Guy" size="32"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <vspacer id="6692e">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="4" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="3e5e1">
+            <constraints>
+              <grid row="6" column="2" row-span="1" col-span="4" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="4e5a8">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <hspacer id="892e">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="60395">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="3" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="fef8d">
+            <constraints>
+              <grid row="3" column="4" row-span="1" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="f616a">
+            <constraints>
+              <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <vspacer id="2461a">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <grid id="19fae" binding="serverHostJoinSelection" layout-manager="GridLayoutManager" row-count="7" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <card name="Card4"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="26421" class="javax.swing.JButton" binding="multiplayerHostGameButton">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <maximum-size width="619" height="150"/>
+              </grid>
+            </constraints>
+            <properties>
+              <icon value="com/munchkin/assets/image/ui/buttons/unpressed/hostGameButton.png"/>
+              <pressedIcon value="com/munchkin/assets/image/ui/buttons/pressed/hostGameButton_pressed.png"/>
+              <rolloverEnabled value="true"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <vspacer id="1c726">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="3682f" class="javax.swing.JButton" binding="multiplayerJoinSessionButton">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <maximum-size width="619" height="150"/>
+              </grid>
+            </constraints>
+            <properties>
+              <icon value="com/munchkin/assets/image/ui/buttons/unpressed/joinSessionButton.png"/>
+              <pressedIcon value="com/munchkin/assets/image/ui/buttons/pressed/joinSessionButton_pressed.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <vspacer id="6e792">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="48c19">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <component id="a7ff3" class="javax.swing.JButton" binding="multiplayerSessionBackButton">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <maximum-size width="619" height="150"/>
+              </grid>
+            </constraints>
+            <properties>
+              <icon value="com/munchkin/assets/image/ui/buttons/unpressed/backButton.png"/>
+              <label value=""/>
+              <pressedIcon value="com/munchkin/assets/image/ui/buttons/pressed/backButton_pressed.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <vspacer id="644a0">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <grid id="71ae2" binding="gameScreen" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <card name="Card5"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="d6d8e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="2" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="com/munchkin/assets/image/ui/players/player3-ui-medium-large.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <hspacer id="d74ad">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <vspacer id="2b971">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
