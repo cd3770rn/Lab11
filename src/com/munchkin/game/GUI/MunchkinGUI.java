@@ -1,7 +1,7 @@
 package com.munchkin.game.GUI;
 
 import com.munchkin.game.Main;
-import com.munchkin.game.Server;
+
 
 import javax.swing.*;
 import java.awt.*;
@@ -37,7 +37,6 @@ public class MunchkinGUI extends JFrame{
     private JButton multiplayerHostGameButton;
     private JButton multiplayerJoinSessionButton;
     private JButton multiplayerSessionBackButton;
-    private JPanel gameScreen;
 
     private Dimension screenResolution = Toolkit.getDefaultToolkit().getScreenSize();
     private double screenHeight = screenResolution.getHeight();
@@ -416,7 +415,7 @@ public class MunchkinGUI extends JFrame{
                 multiplayerHostGameButton.setLocation(multiplayerHostGameButton.getX(), multiplayerHostGameButton.getY()-2);
                 // If user has clicked the Exit button, but moves their mouse off of the button, do not exit.
                 if (cursorOnButton){
-                    Server server = new Server();
+                    //Server server = new Server();
                 }
             }
 
