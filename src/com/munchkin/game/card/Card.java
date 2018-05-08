@@ -1,4 +1,4 @@
-package com.munchkin.game.cards;
+package com.munchkin.game.card;
 
 public class Card {
     private String name;

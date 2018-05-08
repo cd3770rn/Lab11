@@ -25,7 +25,7 @@
               <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <icon value="com/munchkin/assets/image/ui/gameLogo.png"/>
+              <icon value="com/munchkin/assets/image/ui/logo.png"/>
               <text value=""/>
             </properties>
           </component>
@@ -37,8 +37,8 @@
               </grid>
             </constraints>
             <properties>
-              <icon value="com/munchkin/assets/image/ui/buttons/unpressed/playButton.png"/>
-              <pressedIcon value="com/munchkin/assets/image/ui/buttons/pressed/playButton_pressed.png"/>
+              <icon value="com/munchkin/assets/image/ui/button/unpressed/playButton.png"/>
+              <pressedIcon value="com/munchkin/assets/image/ui/button/pressed/playButton_pressed.png"/>
               <text value=""/>
             </properties>
           </component>
@@ -50,8 +50,8 @@
               </grid>
             </constraints>
             <properties>
-              <icon value="com/munchkin/assets/image/ui/buttons/unpressed/settingsButton.png"/>
-              <pressedIcon value="com/munchkin/assets/image/ui/buttons/pressed/settingsButton_pressed.png"/>
+              <icon value="com/munchkin/assets/image/ui/button/unpressed/settingsButton.png"/>
+              <pressedIcon value="com/munchkin/assets/image/ui/button/pressed/settingsButton_pressed.png"/>
               <text value=""/>
             </properties>
           </component>
@@ -63,8 +63,8 @@
               </grid>
             </constraints>
             <properties>
-              <icon value="com/munchkin/assets/image/ui/buttons/unpressed/exitButton.png"/>
-              <pressedIcon value="com/munchkin/assets/image/ui/buttons/pressed/exitButton_pressed.png"/>
+              <icon value="com/munchkin/assets/image/ui/button/unpressed/exitButton.png"/>
+              <pressedIcon value="com/munchkin/assets/image/ui/button/pressed/exitButton_pressed.png"/>
               <text value=""/>
             </properties>
           </component>
@@ -108,8 +108,8 @@
               </grid>
             </constraints>
             <properties>
-              <icon value="com/munchkin/assets/image/ui/buttons/unpressed/howToPlayButton.png"/>
-              <pressedIcon value="com/munchkin/assets/image/ui/buttons/pressed/howToPlayButton_pressed.png"/>
+              <icon value="com/munchkin/assets/image/ui/button/unpressed/howToPlayButton.png"/>
+              <pressedIcon value="com/munchkin/assets/image/ui/button/pressed/howToPlayButton_pressed.png"/>
               <text value=""/>
             </properties>
           </component>
@@ -156,8 +156,8 @@
               </grid>
             </constraints>
             <properties>
-              <icon value="com/munchkin/assets/image/ui/buttons/unpressed/acceptButton.png"/>
-              <pressedIcon value="com/munchkin/assets/image/ui/buttons/pressed/acceptButton_pressed.png"/>
+              <icon value="com/munchkin/assets/image/ui/button/unpressed/acceptButton.png"/>
+              <pressedIcon value="com/munchkin/assets/image/ui/button/pressed/acceptButton_pressed.png"/>
               <text value=""/>
               <visible value="false"/>
             </properties>
@@ -170,8 +170,8 @@
             </constraints>
             <properties>
               <enabled value="true"/>
-              <icon value="com/munchkin/assets/image/ui/buttons/unpressed/backButton.png"/>
-              <pressedIcon value="com/munchkin/assets/image/ui/buttons/pressed/backButton_pressed.png"/>
+              <icon value="com/munchkin/assets/image/ui/button/unpressed/backButton.png"/>
+              <pressedIcon value="com/munchkin/assets/image/ui/button/pressed/backButton_pressed.png"/>
               <requestFocusEnabled value="false"/>
               <text value=""/>
               <visible value="true"/>
@@ -264,8 +264,8 @@
             </constraints>
             <properties>
               <enabled value="false"/>
-              <icon value="com/munchkin/assets/image/ui/buttons/unpressed/spButton.png"/>
-              <pressedIcon value="com/munchkin/assets/image/ui/buttons/pressed/spButton_pressed.png"/>
+              <icon value="com/munchkin/assets/image/ui/button/unpressed/spButton.png"/>
+              <pressedIcon value="com/munchkin/assets/image/ui/button/pressed/spButton_pressed.png"/>
               <text value=""/>
             </properties>
           </component>
@@ -276,8 +276,8 @@
               </grid>
             </constraints>
             <properties>
-              <icon value="com/munchkin/assets/image/ui/buttons/unpressed/mpButton.png"/>
-              <pressedIcon value="com/munchkin/assets/image/ui/buttons/pressed/mpButton_pressed.png"/>
+              <icon value="com/munchkin/assets/image/ui/button/unpressed/mpButton.png"/>
+              <pressedIcon value="com/munchkin/assets/image/ui/button/pressed/mpButton_pressed.png"/>
               <text value=""/>
             </properties>
           </component>
@@ -305,8 +305,8 @@
               </grid>
             </constraints>
             <properties>
-              <icon value="com/munchkin/assets/image/ui/buttons/unpressed/backButton.png"/>
-              <pressedIcon value="com/munchkin/assets/image/ui/buttons/pressed/backButton_pressed.png"/>
+              <icon value="com/munchkin/assets/image/ui/button/unpressed/backButton.png"/>
+              <pressedIcon value="com/munchkin/assets/image/ui/button/pressed/backButton_pressed.png"/>
               <text value=""/>
             </properties>
           </component>
@@ -343,8 +343,8 @@
               </grid>
             </constraints>
             <properties>
-              <icon value="com/munchkin/assets/image/ui/buttons/unpressed/confirmButton.png"/>
-              <pressedIcon value="com/munchkin/assets/image/ui/buttons/pressed/confirmButton_pressed.png"/>
+              <icon value="com/munchkin/assets/image/ui/button/unpressed/confirmButton.png"/>
+              <pressedIcon value="com/munchkin/assets/image/ui/button/pressed/confirmButton_pressed.png"/>
               <text value=""/>
             </properties>
           </component>
@@ -355,8 +355,8 @@
               </grid>
             </constraints>
             <properties>
-              <icon value="com/munchkin/assets/image/ui/buttons/unpressed/backButton.png"/>
-              <pressedIcon value="com/munchkin/assets/image/ui/buttons/pressed/backButton_pressed.png"/>
+              <icon value="com/munchkin/assets/image/ui/button/unpressed/backButton.png"/>
+              <pressedIcon value="com/munchkin/assets/image/ui/button/pressed/backButton_pressed.png"/>
               <text value=""/>
             </properties>
           </component>
@@ -441,8 +441,8 @@
               </grid>
             </constraints>
             <properties>
-              <icon value="com/munchkin/assets/image/ui/buttons/unpressed/hostGameButton.png"/>
-              <pressedIcon value="com/munchkin/assets/image/ui/buttons/pressed/hostGameButton_pressed.png"/>
+              <icon value="com/munchkin/assets/image/ui/button/unpressed/hostGameButton.png"/>
+              <pressedIcon value="com/munchkin/assets/image/ui/button/pressed/hostGameButton_pressed.png"/>
               <rolloverEnabled value="true"/>
               <text value=""/>
             </properties>
@@ -459,8 +459,8 @@
               </grid>
             </constraints>
             <properties>
-              <icon value="com/munchkin/assets/image/ui/buttons/unpressed/joinSessionButton.png"/>
-              <pressedIcon value="com/munchkin/assets/image/ui/buttons/pressed/joinSessionButton_pressed.png"/>
+              <icon value="com/munchkin/assets/image/ui/button/unpressed/joinSessionButton.png"/>
+              <pressedIcon value="com/munchkin/assets/image/ui/button/pressed/joinSessionButton_pressed.png"/>
               <text value=""/>
             </properties>
           </component>
@@ -483,9 +483,9 @@
               </grid>
             </constraints>
             <properties>
-              <icon value="com/munchkin/assets/image/ui/buttons/unpressed/backButton.png"/>
+              <icon value="com/munchkin/assets/image/ui/button/unpressed/backButton.png"/>
               <label value=""/>
-              <pressedIcon value="com/munchkin/assets/image/ui/buttons/pressed/backButton_pressed.png"/>
+              <pressedIcon value="com/munchkin/assets/image/ui/button/pressed/backButton_pressed.png"/>
               <text value=""/>
             </properties>
           </component>

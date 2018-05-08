@@ -13,7 +13,7 @@ public class Main {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        gui = new MunchkinGUI();
+        gui = new MunchkinGUI(); 
 
         // Player 1 draws a card
         // Player 1's client sends card info to server over a socket

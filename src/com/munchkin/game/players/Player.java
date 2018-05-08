@@ -1,8 +1,8 @@
 package com.munchkin.game.players;
 
-import com.munchkin.game.cards.Card;
-import com.munchkin.game.cards.PlayerClass;
-import com.munchkin.game.cards.PlayerRace;
+import com.munchkin.game.card.Card;
+import com.munchkin.game.card.PlayerClass;
+import com.munchkin.game.card.PlayerRace;
 
 import java.util.ArrayList;
 

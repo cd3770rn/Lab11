@@ -1,4 +1,4 @@
-package com.munchkin.game.cards;
+package com.munchkin.game.card;
 
 public class Curse extends Card{
     Curse(String name, String description){
